@@ -1,0 +1,108 @@
+.container{
+    margin: 0 !important;
+    padding: 0 !important;;
+}
+#nav {
+    padding: 1.5rem !important;
+}
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+.navbar-collapse{
+    flex-grow: initial !important;
+}
+
+.container-inner{
+    position: absolute;
+    width: 100%;
+}
+
+.apresentacao{
+    background-image: url('../img/back2.jpg');
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    opacity: 0.9;
+    justify-content: center;
+}
+
+    .apresentacao-quadro{
+        min-height: 200px;
+        background-color: white;
+        display: flex;
+        width: 800px;
+        bottom: 0;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .apresentacao-quadro-dados{
+        width: 50%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+
+        .apresentacao-quadro-dados-items{
+            font-family: sans-serif;
+            line-height: 0;
+            padding-bottom: 1rem;
+            color:#1d4c5b;
+            font-size: 0.9rem;
+        }
+
+        .apresentacao-quadro-dados-items > a {
+            text-decoration: none !important;
+        }
+
+.rede-social{
+    min-height: 150px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background-color: #d7ebf1;
+    color:#1d4c5b;
+}
+
+    .rede-social-inner{
+        height: 70px;
+        background-color: rgb(29 76 91);
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .rede-social-apresentacao-descricao{
+     
+    }
+
+    .rede-social-apresentacao{
+        width: 800px;
+        text-align: center;
+        padding: 4rem 4rem;
+        font-family: sans-serif;
+    }
+
+    .rede-social-apresentacao > h4{
+        text-align: center;
+    }
+
+    .rede-social-inner{
+        text-align: center;
+        padding-top: 16px;
+        justify-content: space-around;
+        display: flex;
+    }
+        .rede-social-inner > a > img{
+            height: 36px;
+            width: 36px;
+        }
+
+.apresentacao-quadro-foto{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+
+.foto{
+    width: 400px
+}
